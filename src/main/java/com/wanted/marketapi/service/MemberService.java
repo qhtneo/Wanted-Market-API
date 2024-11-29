@@ -28,9 +28,11 @@ public class MemberService {
                 .orElse(null);
     }
 
+    // TODO DTO 만들어서 리턴
     public Member addMember(Member member) {
         MemberEntity memberEntity = mapper.toEntity(member);
         memberRepository.save(memberEntity);
+
         return member;
     }
 }
