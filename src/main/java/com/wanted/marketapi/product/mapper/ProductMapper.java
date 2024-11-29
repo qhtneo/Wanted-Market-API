@@ -1,7 +1,7 @@
-package com.wanted.marketapi.service;
+package com.wanted.marketapi.product.mapper;
 
-import com.wanted.marketapi.domain.Product;
-import com.wanted.marketapi.entity.ProductEntity;
+import com.wanted.marketapi.product.domain.Product;
+import com.wanted.marketapi.product.entity.ProductEntity;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
