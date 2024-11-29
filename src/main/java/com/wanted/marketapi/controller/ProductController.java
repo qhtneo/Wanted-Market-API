@@ -1,6 +1,6 @@
 package com.wanted.marketapi.controller;
 
-import com.wanted.marketapi.entity.ProductEntity;
+import com.wanted.marketapi.domain.Product;
 import com.wanted.marketapi.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,17 +20,17 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    public List<ProductEntity> getAllProducts() {
+    public List<Product> getAllProducts() {
         return productService.getAllProducts();
     }
 
     @GetMapping("/{id}")
-    public ProductEntity getProductById(@PathVariable UUID id) {
+    public Product getProductById(@PathVariable("id") UUID id) {
         return productService.getProductById(id);
     }
 
     @PostMapping
-    public ProductEntity addProduct(@RequestBody ProductEntity productEntity) {
-        return productService.addProduct(productEntity);
+    public Product addProduct(@RequestBody Product product) {
+        return productService.addProduct(product);
     }
 }

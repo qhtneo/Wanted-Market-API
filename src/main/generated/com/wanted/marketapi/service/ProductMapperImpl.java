@@ -3,12 +3,14 @@ package com.wanted.marketapi.service;
 import com.wanted.marketapi.domain.Product;
 import com.wanted.marketapi.entity.ProductEntity;
 import javax.annotation.processing.Generated;
+import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2024-11-28T22:36:10+0900",
+    date = "2024-11-29T17:39:05+0900",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.7 (Amazon.com Inc.)"
 )
+@Component
 public class ProductMapperImpl implements ProductMapper {
 
     @Override
