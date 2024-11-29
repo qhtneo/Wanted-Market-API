@@ -1,4 +1,4 @@
-package com.wanted.marketapi.Exception;
+package com.wanted.marketapi.exception;
 
 
 import com.wanted.marketapi.support.exception.CustomException;

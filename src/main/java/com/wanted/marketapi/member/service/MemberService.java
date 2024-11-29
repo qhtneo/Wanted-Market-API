@@ -1,8 +1,8 @@
-package com.wanted.marketapi.service;
+package com.wanted.marketapi.member.service;
 
-import com.wanted.marketapi.domain.Member;
-import com.wanted.marketapi.entity.MemberEntity;
-import com.wanted.marketapi.repository.MemberRepository;
+import com.wanted.marketapi.member.domain.Member;
+import com.wanted.marketapi.member.entity.MemberEntity;
+import com.wanted.marketapi.member.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

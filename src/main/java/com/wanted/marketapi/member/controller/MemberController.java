@@ -1,7 +1,7 @@
-package com.wanted.marketapi.controller;
+package com.wanted.marketapi.member.controller;
 
-import com.wanted.marketapi.domain.Member;
-import com.wanted.marketapi.service.MemberService;
+import com.wanted.marketapi.member.domain.Member;
+import com.wanted.marketapi.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

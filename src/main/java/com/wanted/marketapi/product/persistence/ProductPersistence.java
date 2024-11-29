@@ -1,7 +1,7 @@
 package com.wanted.marketapi.product.persistence;
 
 
-import com.wanted.marketapi.Exception.ProductErrorCode;
+import com.wanted.marketapi.exception.ProductErrorCode;
 import com.wanted.marketapi.product.domain.Product;
 import com.wanted.marketapi.product.domain.ProductStatus;
 import com.wanted.marketapi.product.entity.ProductEntity;

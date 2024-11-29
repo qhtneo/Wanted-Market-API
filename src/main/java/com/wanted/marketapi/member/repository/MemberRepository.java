@@ -1,6 +1,6 @@
-package com.wanted.marketapi.repository;
+package com.wanted.marketapi.member.repository;
 
-import com.wanted.marketapi.entity.MemberEntity;
+import com.wanted.marketapi.member.entity.MemberEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
