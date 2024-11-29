@@ -1,6 +1,5 @@
-package com.wanted.marketapi.domain;
+package com.wanted.marketapi.product.domain;
 
-import com.wanted.marketapi.entity.OrderStatus;
 import jakarta.persistence.Column;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -15,9 +14,9 @@ import lombok.NoArgsConstructor;
 import java.util.UUID;
 
 @Data
-@Builder
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -31,5 +30,5 @@ public class Product {
     private long price;
 
     @Enumerated(EnumType.STRING)
-    private OrderStatus status;
+    private ProductStatus status;
 }
