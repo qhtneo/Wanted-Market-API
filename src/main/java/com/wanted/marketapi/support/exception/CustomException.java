@@ -63,7 +63,7 @@ public class CustomException extends RuntimeException {
         this.ERROR_CODE = errorCode;
     }
 
-//    public ErrorCode getErrorCode() {
-//        return ERROR_CODE;
-//    }
+    public ErrorCode getErrorCode() {
+        return ERROR_CODE;
+    }
 }
